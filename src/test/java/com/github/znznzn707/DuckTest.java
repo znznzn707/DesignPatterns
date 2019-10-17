@@ -1,4 +1,4 @@
-package com.znznzn707;
+package com.github.znznzn707;
 
 import duck.Duck;
 import duck.FlyRocketPowered;
