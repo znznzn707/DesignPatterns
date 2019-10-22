@@ -18,4 +18,10 @@ public class PizzaTest {
         pizza = chicagoStore.orderPizza("cheese") ;
         System.out.println("Joel ordered a "+pizza.getName()+"\n");
     }
+    @Test
+    public  void TestPizza2() {
+        Pizza2.PizzaStore nyPizzaStore = new Pizza2.NYPizzaStore() ;
+        nyPizzaStore.orderPizza("cheese") ;
+
+    }
 }
