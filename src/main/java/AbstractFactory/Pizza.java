@@ -1,4 +1,4 @@
-package Pizza2;
+package AbstractFactory;
 
 public abstract class Pizza {
     String name ;

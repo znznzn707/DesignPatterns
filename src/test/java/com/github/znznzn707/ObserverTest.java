@@ -1,14 +1,9 @@
 package com.github.znznzn707;
 
-import WeatherStation.*;
+import Observer.*;
 import org.junit.Test;
 
-import java.io.BufferedInputStream;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-
-public class WeatherStationTest {
+public class ObserverTest {
     @Test
     public void Test1() {
         WeatherData weatherData = new WeatherData() ;
@@ -31,22 +26,4 @@ public class WeatherStationTest {
 
         System.out.println(weatherData2.countObservers());
     }
-    @Test
-    public void TestInput() {
-        int c ;
-        try{
-            InputStream in =
-                    new LowerCaseInputStream(
-                            new BufferedInputStream(
-                                    new FileInputStream("test.txt")
-                            )
-                    ) ;
-            while ((c = in.read()) >= 0) {
-                System.out.print((char)c);
-            }
-            in.close();
-        }catch (IOException e){
-            e.printStackTrace();
-        }
     }
-}

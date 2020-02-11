@@ -1,12 +1,12 @@
 package com.github.znznzn707;
 
-import Pizza.ChicagoPizzaStore;
-import Pizza.NYPizzaStore;
-import Pizza.Pizza;
-import Pizza.PizzaStore;
+import FactoryMethod.ChicagoPizzaStore;
+import FactoryMethod.NYPizzaStore;
+import FactoryMethod.Pizza;
+import FactoryMethod.PizzaStore;
 import org.junit.Test;
 
-public class PizzaTest {
+public class FactoryMethodTest {
     @Test
     public void TestPizza() {
         PizzaStore nyStore = new NYPizzaStore() ;
@@ -17,11 +17,5 @@ public class PizzaTest {
 
         pizza = chicagoStore.orderPizza("cheese") ;
         System.out.println("Joel ordered a "+pizza.getName()+"\n");
-    }
-    @Test
-    public  void TestPizza2() {
-        Pizza2.PizzaStore nyPizzaStore = new Pizza2.NYPizzaStore() ;
-        nyPizzaStore.orderPizza("cheese") ;
-
     }
 }

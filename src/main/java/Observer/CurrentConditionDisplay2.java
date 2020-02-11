@@ -1,4 +1,4 @@
-package WeatherStation;
+package Observer;
 
 import java.util.Observable;
 import java.util.Observer ;

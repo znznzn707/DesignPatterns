@@ -1,4 +1,4 @@
-package Pizza2;
+package AbstractFactory;
 
 public class CheesePizza extends Pizza {
     PizzaIngredientFactory ingredientFactory ;

@@ -1,4 +1,4 @@
-package Pizza2;
+package AbstractFactory;
 
 public class ReggianoCheese implements Cheese {
     @Override

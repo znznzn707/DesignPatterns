@@ -1,4 +1,4 @@
-package Pizza;
+package FactoryMethod;
 
 public class NYPizzaStore extends PizzaStore {
     @Override

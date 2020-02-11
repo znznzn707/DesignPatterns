@@ -1,4 +1,4 @@
-package WeatherStation;
+package Observer;
 /**@author znznzn707
  * <pre>
  *观察者模式

@@ -1,4 +1,4 @@
-package Pizza2;
+package AbstractFactory;
 
 /**
  * 抽象工厂模式

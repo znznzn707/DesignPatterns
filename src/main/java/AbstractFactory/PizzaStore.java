@@ -1,4 +1,4 @@
-package Pizza2;
+package AbstractFactory;
 
 public abstract class PizzaStore {
     public Pizza orderPizza(String type) {

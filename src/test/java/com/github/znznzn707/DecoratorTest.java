@@ -1,9 +1,9 @@
 package com.github.znznzn707;
 
-import Beverage.*;
+import Decorator.*;
 import org.junit.Test;
 
-public class BeverageTest {
+public class DecoratorTest {
     @Test
     public void Test() {
         Beverage espresso = new Espresso();

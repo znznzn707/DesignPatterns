@@ -1,4 +1,4 @@
-package Pizza;
+package FactoryMethod;
 
 /**@author znznzn707
  * <pre>

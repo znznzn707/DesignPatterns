@@ -1,4 +1,4 @@
-package Pizza2;
+package AbstractFactory;
 
 public interface Clams {
     public String getDescription() ;
