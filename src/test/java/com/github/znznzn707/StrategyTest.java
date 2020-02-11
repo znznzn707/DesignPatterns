@@ -1,16 +1,16 @@
 package com.github.znznzn707;
 
-import duck.Duck;
-import duck.FlyRocketPowered;
-import duck.MallardDuck;
-import duck.ModelDuck;
+import Strategy.Duck;
+import Strategy.FlyRocketPowered;
+import Strategy.MallardDuck;
+import Strategy.ModelDuck;
 import org.junit.Test;
 
-public class DuckTest {
+public class StrategyTest {
     MallardDuck mallardDuck = new MallardDuck() ;
     Duck model = new ModelDuck() ;
 
-    public DuckTest(){
+    public StrategyTest(){
         System.out.println("DuckTest");
     }
     @Test

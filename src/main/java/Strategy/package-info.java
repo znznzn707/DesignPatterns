@@ -1,4 +1,4 @@
-package duck;
+package Strategy;
 
 /**@author znznzn707
  * <pre>
