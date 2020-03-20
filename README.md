@@ -2,7 +2,7 @@
 
 
 ## 创建型设计模式
-[Abstract Factory]()
+[Abstract Factory](./src/main/java/AbstractFactory)
 [Factory Method]()
 [Singleton]()
 [Builder]()
